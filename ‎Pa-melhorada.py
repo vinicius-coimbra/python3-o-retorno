@@ -1,8 +1,8 @@
 termo = int(input('escreva o termo de uma p.a:'))
- razao = int(input('escreva a razao de uma p.a:'))
- resposta = 10
- relogio = 0
- while resposta != 0:
+razao = int(input('escreva a razao de uma p.a:'))
+resposta = 10
+relogio = 0
+while resposta != 0:
       
       print(f'{termo}',end= ' > ')
       termo += razao
