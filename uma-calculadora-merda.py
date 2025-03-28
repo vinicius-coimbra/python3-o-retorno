@@ -16,6 +16,8 @@ while r1 != 5 :
         print('_'*20)
         if n1 > n2:
             print(n1)
+        elif n1 == n2:
+            print('os dois tem o mesmo falor')
         else:
             print(n2)
         print('_'*20)
