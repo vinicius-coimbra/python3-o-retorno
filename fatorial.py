@@ -1,7 +1,10 @@
 n = int(input('escreva um numero pra fatorizar:'))
 r = n
-while n != 1:
-    r = r * (n-1)
+f = 1
+while n > 0:
+    print(f'{n}',end= '')
+    print(' x ' if n > 1  else ' = ',end='')
+    f *=n
     n -= 1
 
-print(r)
+print(f)

@@ -18,4 +18,4 @@ def soma_de_numeros_maiores(*numeros):
 soma_de_numeros_maiores(maior_numero(lista1),maior_numero(lista2))
 #isso deve dar tudo cagado mas funciona e é isso que importa.
 #agora que eu vi que tem uma forma de fazer isso sem o max() mas e inutil fazer dessa forma.
-# eu ja sabia que tinha aquela outra forma ja fiz outra fez mas nao fale apena. 
+# eu ja sabia que tinha aquela outra forma ja fiz outra fez mas nao vale apena. 
