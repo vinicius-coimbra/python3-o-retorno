@@ -4,7 +4,6 @@ resposta = 10
 relogio = 0
 soma_dos_termos = 0
 while resposta != 0:
-      soma_dos_termos += resposta
       print(f'{termo}',end= ' > ')
       termo += razao
  
@@ -13,8 +12,11 @@ while resposta != 0:
           break
       
       if relogio == resposta:
+         soma_dos_termos += resposta
          relogio = 0
          resposta = int(input('\nvoce que ver mais guandos termos?:'))
+     
+    
 
 print('cabou')
 print(soma_dos_termos)

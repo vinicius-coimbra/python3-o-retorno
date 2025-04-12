@@ -1,11 +1,13 @@
-numero_da_sequencia = int(input('escreva um numero pra ver a sequencia de fibonacci:'))
-relogio = 0
-numero = 0
-soma = numero
-while relogio != numero_da_sequencia:
-    print(f'{numero}',end=' > ')
-    relogio += 1
-    if numero == 0:
-        numero += 1
-    numero +=soma 
+t1 = 0
+t2 = 1
+cont = 3
+n = int(input('guandos termos de fibonacci voce quer ver:'))
+print(f'{t1} -> {t2}',end=' -> ')
+while cont <= n:
+    t3 = t1 + t2
+    print(f'{t3}',end=' -> ')
+    t1 = t2
+    t2 = t3
+    cont += 1 
+print('fim')
     

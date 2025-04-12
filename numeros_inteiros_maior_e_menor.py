@@ -18,4 +18,4 @@ while resposta != 'N':
         menor = numero
 
 print(f'a media entre eles e {media} o maior e {maior} o menor e {menor}')
-print(soma)
+print('a soma e ', soma)
