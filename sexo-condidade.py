@@ -34,3 +34,4 @@ while True:
         break    
 
 print(f'{'~' * 20}\no numero de homens e {homem}\no numero de pessoas que tem 18 ou mais e {mais_de_18}\no numero de mulheres com menos de 20 sao {mulher_menos_20}\n{'~' * 20}')
+print('roi')
