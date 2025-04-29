@@ -5,7 +5,7 @@ while True:
     if numero == 999:
         break
     
-    elif numero != 999:
+    else:
         guantidade_de_numero += 1
         soma +=numero        
     
