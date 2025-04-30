@@ -5,8 +5,7 @@ while True:
     if numero == 999:
         break
     
-    else:
-        guantidade_de_numero += 1
-        soma +=numero        
+    guantidade_de_numero += 1
+    soma +=numero        
     
 print(f'tem {guantidade_de_numero} numeros e a soma  deles e {soma}')

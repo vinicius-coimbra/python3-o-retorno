@@ -4,6 +4,6 @@ while True :
         print('o programa acaba aqui')
         break
 
-    elif numero >= 0:
-        for tabuada in range(1, 11):
-            print(f'{tabuada} X {numero} = {tabuada * numero}')
+   
+    for tabuada in range(1, 11):
+        print(f'{tabuada} X {numero} = {tabuada * numero}')
