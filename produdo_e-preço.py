@@ -3,7 +3,7 @@ produdo_e_preço = ('alho', 2.21 , "notbook", 1000.500 ,
     'livro' , 56.70 , 'rtx4050' , 4000.60 , 'xbox' , 1800,
     'enden ring' , 400 )
 lugar_do_VALO = 1
-lugar_do_PRODUTO = 0 
+lugar_do_PRODUTO = 0
 print('-' * 40)
 print(f'{'produtos': ^40}')
 print('-' * 40)

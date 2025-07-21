@@ -2,7 +2,7 @@ import random
 numeros = tuple(random.randint(1, 100) for _ in range(5))
 
 print(*numeros)
-print(f"o menor numero da lista e {max(numeros)}")
+print(f"o maior numero da lista e {max(numeros)}")
 print(f"menor numero da lista e {min(numeros)}")
 
 
@@ -10,4 +10,4 @@ print(f"menor numero da lista e {min(numeros)}")
 
 O tuple(...) empacota tudo isso numa tupla.
 
-As vírgulas da tupla não aparecem no código, mas o Python monta a tupla com elas por baixo dos panos, pegando os valores da generator expression."""
+As vírgulas da tupla não aparecem no código, mas o Python monta a tupla com elas por baixo dos panos, pegando os valores da generator expression."""  

@@ -8,13 +8,13 @@ if numeros.count(3):
 pares = tuple( par for par in numeros if par % 2 == 0 )
 print('-'*20)
 
-if numeros.count(9):
+if 9 in numeros:
     print(f"tem {numeros_9} noves na tupla")
 else:
     print("nao tem nenhum nove na tupla")
 
-if numeros.count(3):
-    print(f"o primeiro tres esta na possiçao {posiçao_do_3}")
+if 3 in numeros:
+    print(f"o primeiro tres esta na possiçao {posiçao_do_3 + 1}")
 else:
     print("nao tem nenhum tres na tupla")
 
